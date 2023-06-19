@@ -1,0 +1,92 @@
+/* styles.css */
+
+/* Header */
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  padding: 20px 0;
+  text-align: center;
+  color: #fff;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Navigation */
+nav {
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* Sections */
+section {
+  padding: 40px;
+  background-color: #fff;
+  text-align: center;
+  margin: 20px 0;
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+/* About Me Section */
+section#about_me figure {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+section#about_me figcaption {
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+/* Projects Section */
+section#projects ul,
+div.skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+section#projects li,
+div.skills li {
+  padding: 10px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+/* Contact Section */
+section#contact p span {
+  font-weight: bold;
+}
+
+section#contact a {
+  color: #333;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
